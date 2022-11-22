@@ -4,7 +4,7 @@ import { request } from "../../helper/helper";
 import Loading from "../../loading/loading";
 import MessagePrompts from "../../prompts/message";
 
-export default class EmpleadosCrear extends React.Component {
+export default class EmpleadosEditar extends React.Component {
   constructor(props) {
     super(props);
     this.state = {
@@ -65,7 +65,7 @@ export default class EmpleadosCrear extends React.Component {
 
   render() {
     return (
-      <Container id="empleados-crear-container">
+      <Container id="empleados-editar-container">
         <MessagePrompts
           text={this.state.message.text}
           show={this.state.message.show}

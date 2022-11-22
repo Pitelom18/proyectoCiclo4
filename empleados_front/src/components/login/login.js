@@ -42,6 +42,7 @@ export default class Login extends React.Component {
           expires: calcularExpirarSesion(),
         });
         this.props.history.push(window.open('/empleados'));
+        window.close();
       } 
       this.setState({loading: false});
       
