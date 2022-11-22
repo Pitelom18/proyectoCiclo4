@@ -1,8 +1,8 @@
 import React from "react";
 import {Row, Container} from "react-bootstrap";
-import { request } from "../helper/helper";
-import "./empleados.css";
-import DataGrid from "../grid/grid";
+import { request } from "../../helper/helper";
+import "../empleados.css";
+import DataGrid from "../../grid/grid";
 
 const columns = [
     {
